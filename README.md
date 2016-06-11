@@ -1,6 +1,8 @@
 # WaitingANewFax
 watching a new pdf file created by fax
 
+스팸팩스 방지 방법
+
 이 프로그램의 목적은 스팸팩스를 방지하기 위해
 팩스머신이 직접 종이로 프린트 되지 않고
 PDF 파일로 저장되도록 하는 기능을 이용하여
