@@ -44,11 +44,8 @@ public class WaitingNewFile extends Application
        String dir_loc = (String) (new CmnUtil()).readFilesInfo(CmnUtil.STR_DIR_PATH);
        
        CmnUtil.setPath(dir_loc);
-//        (new CmnUtil()).setPath("\\\\192.168.0.2\\work\\fax");
-//        (new CmnUtil()).setPath("Z:\\VOL1\\work\\fax");
         
-        
-//        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+//  시작        
 
         Scene scene = new Scene(root);
 
