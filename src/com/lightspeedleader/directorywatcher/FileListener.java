@@ -40,8 +40,6 @@ public class FileListener extends BaseListener implements IFileListener
                 {
                     File f = (File) files[i];
                     DirectoryWatcher.controller.addRecord(f.getName(), CmnUtil.convertFormat(f.lastModified(), "yyyy/MM/dd HH:mm"),false);
-                    
-                    //onAdd(f);
                 }
                 
 
