@@ -2,14 +2,8 @@ package com.lightspeedleader.directorywatcher;
 
 //import action.FileEvent;
 import java.io.File;
-import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javafx.application.Platform;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import waitingnewfile.CmnUtil;
-import waitingnewfile.FXMLDocumentController;
 
 public class FileListener extends BaseListener implements IFileListener
 {
